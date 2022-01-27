@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Popup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <style>
+        small{
+
+        color: grey;
+
+    }
+    h6{
+        font-weight: 800;
+        font-size: 14px;
+    }
+    </style>
+
+</head>
+
+<body style="font-family:Arial, Helvetica, sans-serif">
+
+    <div class="row" style="  min-height: 100vh; height: 100%;background-color:#efedfa ">
+        <div class="col-sm-2 d-inline-block" style="background-color: #efedfa;">
+            <div class="mt-5">
+                <img class="ml-5" src="images/Group 1596@2x.png" width="125px;" height="40px">
+            </div>
+
+            <div class="ml-3 mt-5">
+                <a href="" class="m-1 btn" style="color: #fff; background-color: #043ebe; padding-left: 8px; padding-right: 55px; border-radius: 8px 8px 8px 8px;"><i class="fa fa-home ml-6" style="color: #fff; padding-right: 8px;"> </i>
+                    Dashboard</a>
+            </div>
+            <div class="ml-3 mt-4">
+                <a href="" class="m-4" style="color: #7a7a7a; "><i class="fa fa-folder ml-6" style="color: #7a7a7a; padding-right: 8px;">
+                    </i> Projects</a>
+            </div>
+            <div class="ml-3 mt-5">
+                <a href="" class=" m-4" style="color: #7a7a7a;"><i class="fa fa-calendar ml-6" style="color: #7a7a7a; padding-right: 8px;">
+                    </i> Calendar</a>
+            </div>
+            <div class="ml-3 mt-5">
+                <a href="" class=" m-4" style="color: #7a7a7a;"><i class="fa fa-truck ml-6" style="color: #7a7a7a; padding-right: 8px;">
+                    </i> Activity</a>
+            </div>
+            <div class=" ml-3 mt-5">
+                <a href="" class=" m-4" style="color: #7a7a7a;"><i class="fa fa-chart-pie ml-6" style="color: #7a7a7a; padding-right: 8px;">
+                    </i> TimeSheet</a>
+            </div>
+            <div class="ml-3 mt-5">
+                <a href="" class=" m-4" style="color: #7a7a7a;"><i class="fa fa-sign-out ml-6" style="color: #7a7a7a; padding-right: 8px;">
+                    </i> Log Out</a>
+            </div>
+        </div>
+
+        <div class="col-sm-7  d-inline-block" style="background-color: #efedfa;">
+            <div class="mt-5">
+                <input type="text" class="form-control rounded w-25" placeholder="search"
+                    style="box-shadow: 1px 1px 4px 8px #cdcdcd3b; border: none; border-radius: 7px;">
+            </div>
+            <div class="mt-5">
+                <p style="color: grey;">Cool dashboard</p>
+                <h3 style="color: black; font-size: 24px; font-weight: 700;">Hello, Welcome to your dashboard 
+                    <button
+                        class="pull-right btn" style="color: #fff; background-color: #043ebe; padding:10px; border-radius: 8px 8px 8px 8px;" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus " style="font-size: 11px;"></i> New Projects</button></h3>
+
+            </div>
+            <div class="col-sm-12">
+
+                <div class="col-sm-3 bg-white  h-25 m-3 ml-5" style="
+                        box-shadow: 1px 1px 4px 8px #cdcdcd3b; border-radius: 7px;">
+                    <h6>Send Emails</h6>
+                    <div class="progress" style="height: 5px; margin-top: 8px;">
+                        <div class="progress-bar" role="progressbar" style="width: 40%; background-color: #043ebe;" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <small><i class="fa fa-calendar"></i> Aug , 22 2021</small>
+                    <small class="pull-right">20 comments</small>
+                </div>
+                <div class="col-sm-3 bg-white  h-25 m-3 " style="
+                    box-shadow: 1px 1px 4px 8px #cdcdcd3b; border-radius: 7px;">
+                    <h6>Save Tasks</h6>
+                    <div class="progress" style="height: 5px; margin-top: 8px;">
+                        <div class="progress-bar" role="progressbar" style="width: 90% ;background-color: #043ebe;" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small><i class="fa fa-calendar"></i> Aug , 22 2021</small>
+                    <small class="pull-right">20 comments</small>
+                </div>
+                <div class="col-sm-3 bg-white h-25 m-3 " style="
+                    box-shadow: 1px 1px 4px 8px #cdcdcd3b; border-radius: 7px;">
+                    <h6>Project Meeting</h6>
+                    <div class="progress" style="height: 5px; margin-top: 8px;">
+                        <div class="progress-bar" role="progressbar" style="width: 5%;background-color: #043ebe;" aria-valuenow="5"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small><i class="fa fa-calendar"></i> Aug , 22 2021</small>
+                    <small class="pull-right">20 comments</small>
+                </div>
+
+            </div>
+            <div class="col-sm-12"
+                style="background-color: white; box-shadow: 1px 1px 4px 8px #cdcdcd3b; border-radius: 7px;">
+                <h5><strong>Task Summary </strong> <button class="pull-right btn ">+ New Task</button></h5>
+                <div class="col-sm-2 mt-3 ml-1" >
+                    <p style="border-bottom: 2px solid #043ebe;" class="text-center">Ongoing</p>
+                </div>
+                <div class="col-sm-2 mt-3 ml-3">
+                    <p style="border-bottom: 2px solid #6d6d6d;" class="text-center">Backlog</p>
+                </div>
+                <div class="col-sm-2 mt-3 ml-3">
+                    <p style="border-bottom: 2px solid #6d6d6d;" class="text-center">Completed</p>
+                </div>
+           
+                <table class="col-sm-12">
+                    <thead>
+                        <th>Task Name</th>
+                        <th>Type</th>
+                        <th>Team</th>
+                        <th>Start</th>
+                        <th>End </th>
+                        <th>Progress</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Smith Junior</td>
+                            <td>random</td>
+                            <td><img src="images/Ellipse 32@2x.png" height="40px;" width="40px;"></td>
+                            <td>Aug, 12 2021</td>
+                            <td>Aug, 12 2021</td>
+                            <td>
+                                <div class="progress " style="height: 5px; margin-top: 8px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #043ebe;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Smith Junior</td>
+                            <td>random</td>
+                            <td><img src="images/Ellipse 32@2x.png" height="40px;" width="40px;"></td>
+                            <td>Aug, 12 2021</td>
+                            <td>Aug, 12 2021</td>
+                            <td>
+                                <div class="progress " style="height: 5px; margin-top: 8px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #043ebe;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Smith Junior</td>
+                            <td>random</td>
+                            <td><img src="images/Ellipse 32@2x.png" height="40px;" width="40px;"></td>
+                            <td>Aug, 12 2021</td>
+                            <td>Aug, 12 2021</td>
+                            <td>
+                                <div class="progress " style="height: 5px; margin-top: 8px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #043ebe;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Smith Junior</td>
+                            <td>random</td>
+                            <td><img src="images/Ellipse 32@2x.png" height="40px;" width="40px;"></td>
+                            <td>Aug, 12 2021</td>
+                            <td>Aug, 12 2021</td>
+                            <td>
+                                <div class="progress " style="height: 5px; margin-top: 8px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #043ebe;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Smith Junior</td>
+                            <td>random</td>
+                            <td><img src="images/Ellipse 32@2x.png" height="40px;" width="40px;"></td>
+                            <td>Aug, 12 2021</td>
+                            <td>Aug, 12 2021</td>
+                            <td>
+                                <div class="progress " style="height: 5px; margin-top: 8px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #043ebe;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Smith Junior</td>
+                            <td>random</td>
+                            <td><img src="images/Ellipse 32@2x.png" height="40px;" width="40px;"></td>
+                            <td>Aug, 12 2021</td>
+                            <td>Aug, 12 2021</td>
+                            <td>
+                                <div class="progress " style="height: 5px; margin-top: 8px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #043ebe;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Smith Junior</td>
+                            <td>random</td>
+                            <td><img src="images/Ellipse 32@2x.png" height="40px;" width="40px;"></td>
+                            <td>Aug, 12 2021</td>
+                            <td>Aug, 12 2021</td>
+                            <td>
+                                <div class="progress " style="height: 5px; margin-top: 8px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #043ebe;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-sm-3  d-inline-block" style="background-color:white;">
+            <div class="mt-5">
+                <p><img src="images/Ellipse 32@2x.png" height="40px;" width="40px;"><strong> Peter Smith Junior Junior</strong></p>
+            </div>
+            <div>
+                <canvas id="barChart" style="width: 200px;height: 150px;"></canvas>
+            </div>
+            <span>
+                <p><strong>Recent Activity</strong> <strong class="pull-right">sell all</strong></p>
+            </span>
+            <div class="mt-2">
+                <div class=" col-sm-5 rounded m-2"
+                    style="background-color: rgb(255, 255, 255);height: 180px;box-shadow: 1px 1px 4px 8px #cdcdcd3b; border-radius: 7px;">
+                    <h6><strong>10 Tasks</strong></h6>
+                    <small style="color: thistle;font-size: 10px;">Complete this week</small>
+                </div>
+                <div class=" col-sm-5  rounded m-2"
+                    style="background-color: rgb(253, 253, 253);height: 180px;box-shadow: 1px 1px 4px 8px #cdcdcd3b; border-radius: 7px;">
+                    <h6><strong>8 Tasks</strong></h6>
+                    <small style="color: thistle;font-size: 10px;">in progress</small>
+                </div>
+            </div>
+            <span>
+                <p><strong>Other Activity</strong> <strong class="pull-right">sell all</strong></p>
+            </span>
+            <div class="m-2">
+                <div style="background-color: white;">
+                    <p class="p-2"><img src="images/Ellipse 32@2x.png" height="20px;" width="20px;"><strong> Peter
+                            Smith Junior</strong> mentioned you in comment
+                        on project 5 <span class="pull-right"><strong>...</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-md-7 col-lg-5">
+                                <div class="wrap">
+                                    <div class="login-wrap p-3 p-md-4">
+                                        <div class="d-flex">
+                                            <div class="w-100" style="padding-left: 5%;">
+                                                <h1 style="font: normal normal bold 30px/46px Poppins;">Creat New Project</h1>
+                                            </div>
+                                            <div style="padding-right: 1px;">
+                                                <button style="background-color: transparent; border-color: transparent;"><img
+                                                        src="images/cross.jpg" style="width: 20px; height: 20px;" alt=""  class="close" data-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                        </div>
+                                        <form action="#" class="signin-form" style="padding-left: 5%;">
+                                            <div class="form-group mt-3">
+                                                <h6>Name</h6>
+                                                <input id="rcorners1" type="text" class="form-control" required
+                                                    placeholder="Project Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <h6>Users</h6>
+                                                <input id="rcorners1" id="password-field" type="password" class="form-control"
+                                                    required placeholder="Search User by name or Email">
+                                            </div>
+            
+            
+                                            <div style="width: 100%;" class="vertical-menu">
+                                                <div
+                                                    style="padding-bottom: 10px; background-color: rgba(180, 168, 168, 0.151); border-radius: 10%;">
+                                                    <div id="left20">
+                                                        <!-- <button style="background-image: url(../login-form-15/images/Ellipse\ 33.png); background-color: transparent; border-radius: 100%;">1</button> -->
+                                                        <img src="images/Ellipse 32.png" class="rounded-circle" alt="...">
+                                                    </div>
+                                                    <div id=right80>
+                                                        <div id="left40">
+                                                            <label style="font: bold; margin-bottom: -10px;">Zohaib</label><br>
+                                                            <label
+                                                                style="font-size: x-small; margin-top: -10px;">Zee@gmial.ccom</label>
+                                                        </div>
+                                                        <div id="right40">
+            
+                                                            <img src="../zohaib_task/images/ellipsis-h-regular (1).png"
+                                                                style=" background-color: transparent; padding-top: 15px; padding-right: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    style="padding-bottom: 10px; background-color: rgba(252, 250, 250, 0.685); border-radius: 10%;">
+                                                    <div id="left20">
+                                                        <!-- <button style="background-image: url(../login-form-15/images/Ellipse\ 33.png); background-color: transparent; border-radius: 100%;">1</button> -->
+                                                        <img src="images/Ellipse 40.png" class="rounded-circle" alt="...">
+                                                    </div>
+                                                    <div id=right80>
+                                                        <div id="left40">
+                                                            <label style="font: bold; margin-bottom: -10px;"> Peter </label><br>
+                                                            <label
+                                                                style="font-size: x-small; margin-top: -10px;">Peter@gmial.ccom</label>
+                                                        </div>
+                                                        <div id="right40">
+            
+                                                            <img src="../zohaib_task/images/ellipsis-h-regular (1).png"
+                                                                style=" background-color: transparent; padding-top: 15px; padding-right: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+            
+                                                <div
+                                                    style="padding-bottom: 10px; background-color: rgba(180, 168, 168, 0.151); border-radius: 10%;">
+                                                    <div>
+            
+            
+                                                        <div id="left20">
+                                                            <!-- <button style="background-image: url(../login-form-15/images/Ellipse\ 33.png); background-color: transparent; border-radius: 100%;">1</button> -->
+                                                            <img src="images/Ellipse 33.png" class="rounded-circle" alt="...">
+                                                        </div>
+                                                        <div id=right80>
+                                                            <div id="left40">
+                                                                <label style="font: bold; margin-bottom: -10px;">Ellen</label><br>
+                                                                <label
+                                                                    style="font-size: x-small; margin-top: -10px;">Ellen@gmial.ccom</label>
+                                                            </div>
+                                                            <div id="right40">
+            
+                                                                <img src="../zohaib_task/images/ellipsis-h-regular (1).png"
+                                                                    style=" background-color: transparent; padding-top: 15px; padding-right: 10px;">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+            
+                                                </div>
+                                                <div
+                                                    style="padding-bottom: 10px; background-color: rgba(252, 250, 250, 0.685); border-radius: 10%;">
+                                                    <div id="left20">
+                                                        <!-- <button style="background-image: url(../login-form-15/images/Ellipse\ 33.png); background-color: transparent; border-radius: 100%;">1</button> -->
+                                                        <img src="images/Ellipse 32.png" class="rounded-circle" alt="...">
+                                                    </div>
+                                                    <div id=right80>
+                                                        <div id="left40">
+                                                            <label style="font: bold; margin-bottom: -10px;">John</label><br>
+                                                            <label
+                                                                style="font-size: x-small; margin-top: -10px;">John@gmial.ccom</label>
+                                                        </div>
+                                                        <div id="right40">
+            
+                                                            <img src="../zohaib_task/images/ellipsis-h-regular (1).png"
+                                                                style=" background-color: transparent; padding-top: 15px; padding-right: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+            
+            
+                                            <hr>
+                                            <div class="form-group d-md-flex">
+            
+                                                <div id="left">
+                                                    <div class="form-group">
+                                                        <div class='input-group date' id='datetimepicker1' data-provide="datepicker">
+                                                            <input type='text' class="form-control" placeholder="Start Date" required />
+                                                            <span class="input-group-addon">
+                                                                <span class="glyphicon glyphicon-calendar"></span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="left">
+                                                    <div class="form-group">
+                                                        <div class='input-group date' id='datetimepicker2' data-provide="datepicker">
+                                                            <input type='text' class="form-control" placeholder="End Date" required/>
+                                                            <span class="input-group-addon">
+                                                                <span class="glyphicon glyphicon-calendar"></span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+            
+                                            <div class="form-group d-md-flex">
+                                                <button style="text-align: center; width: 100%;" id="LoginButton" type="button"
+                                                    class="btn btn-success">Creat Project</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+    
+   
+
+</body>
+
+</html>
